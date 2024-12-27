@@ -1,0 +1,8 @@
+{
+    "medications": [
+    { "id": 1, "name": "Atenolol", "dosage": "50mg", "frequency": "Once daily" },
+    { "id": 2, "name": "Ibuprofen", "dosage": "200mg", "frequency": "Twice daily" },
+    { "id": 3, "name": "Paracetamol", "dosage": "500mg", "frequency": "Thrice daily" }
+  ]
+}
+  

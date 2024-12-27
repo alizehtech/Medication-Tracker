@@ -1,0 +1,12 @@
+<app-header [title]="title"></app-header>
+<mat-list>
+  <mat-list-item *ngFor="let x of medications" class="list-item">
+    <span matListItemTitle><strong>Medication name: </strong>{{ x.name }}</span>
+    <span matListItemLine><strong>Dosage: </strong>{{ x.dosage }}</span>
+    <div>
+      <mat-checkbox>
+        <span matListItemLine><strong>Frequency: </strong>{{ x.frequency }}</span>
+      </mat-checkbox>
+    </div>
+  </mat-list-item>
+</mat-list>
